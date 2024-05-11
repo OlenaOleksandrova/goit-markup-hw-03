@@ -28,7 +28,7 @@ body {
         }
 
 a {text-decoration: none;}
-    
+        /* Top line  contacts*/
     /* logo */
 .logo {
     font-weight: 700;
@@ -37,7 +37,7 @@ a {text-decoration: none;}
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
-        font-family: "Raleway", sans-serif
+        font-family: "Raleway", sans-serif;
 }
 
 
@@ -51,7 +51,7 @@ a {text-decoration: none;}
         font-family: "Raleway", sans-serif
     }
 
-/* Top line */
+
 .link-contact {
     font-style: normal
 }
@@ -76,9 +76,13 @@ a {text-decoration: none;}
 .info:focus {
     color: #404bbf;
 }
-/* hero images */
+
+/* hero images 1*/
 
 .hero-images {background: #2e2f42;
+    height: 600px;
+    width: 1440px;
+    margin-bottom: 0;
     }
 
 .button-link {
@@ -92,58 +96,115 @@ letter-spacing: 0.04em
 } 
 
 /* Button */
-.button-link:hover {
+.button:hover {
     background: #404BBF;
     color: #FFFFFF;}
-    .button-link {cursor: pointer;
+    .button {cursor: pointer;
     background: #4d5ae5;
+    margin-top: 48px;
+    margin-right: 635px;
+    margin-bottom: 188px;
+    margin-left: 636px;
+    width: 169px;
+    height: 56px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
 }
-.button-link:focus { background-color: #404BBF }
-
-    /* section our-team */
-
-    .our-team-all {background: #f4f4fd;}
-
-/* other */
-.title {font-weight: 700;
+.button:focus { background-color: #404BBF }
+/* h1 */
+.title {
+    font-weight: 700;
     font-size: 56px;
     color: #fff;
     line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
-    line-height: 1.07
-}
-ul {
-    list-style: none;
-}
+    line-height: 1.07;
+    list-style-type: none;
+    padding-top: 188px;
+    margin-right: 472px;
+    margin-bottom: 48px;
+    margin-left: 472px;
+    height: 120px;
+    width: 496px;
+    padding-bottom: 48px; }
+
+    /* section 3 our-team */
+
+.our-team-all {background: #f4f4fd;}
+
+
 /* section 2 main information */
 
-.main-info-section {background-color: #FFFFFF}
-.name-main-info {font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        color: #2e2f42;
-        letter-spacing: 0.02em
-}
-.list-main { background-color: #FFFFFF}
-.link-section-second { font-weight: 400;
-        font-size: 16px;
-        color: #434455;
-        background-color: #FFFFFF;
-        line-height: 1.5;
-        letter-spacing: 0.02em
-}
+.main-info-section {
+    background-color: #FFFFFF;
+margin-top: 120px;
+margin-right: 156px;
+margin-bottom: 120px;
+margin-left: 156x;
+height: 104px;}
 
+.section-two-list { display: flex;
+
+}
+/* h2 */
 .name-our-team {
     font-weight: 700;
     font-size: 36px;
-     line-height: 1.11;
-     color: #2e2f42;
-     letter-spacing: 0.02em;
-     text-align: center;
-    text-transform: capitalize
-    }
-    
+    line-height: 1.11;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    list-style-type: none;
+}
+/*  */
+ul {
+    list-style: none;
+}
+
+/* li */
+.list-main {
+    background-color: #FFFFFF;
+    list-style-type: none;
+    padding-left: 0; 
+width: 264; 
+height: 104;
+display: inline-block;
+box-sizing: border-box;}
+
+
+/* h3 */
+.name-main-info {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    list-style-type: none;
+   gap: 8px;
+}
+/* p */
+.link-section-second {
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+    background-color: #FFFFFF;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    list-style-type: none;
+    padding-left: 0;
+}
+.card-image {
+    display: block;
+    border-bottom: 1px solid #e7e9fc;
+     }
+
+
+/*  */
+
 .footer {background: #2e2f42;}
 .footer-text {
     color: #f4f4fd;
@@ -158,4 +219,31 @@ ul {
     text-transform: uppercase;color: #f4f4fd;
     font-family: "Raleway", sans-serif;
 }
-             
+.section {
+    padding-top: 120;
+    padding-bottom: 120;
+}       
+.container {
+    max-width: 1158px;
+    padding-left: 156;
+    padding-right: 156;
+    margin-left: ;
+    margin-right: ;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.paragraf-main-info {
+    height: 72px;
+    width: 264px;
+overflow: hidden;
+}
