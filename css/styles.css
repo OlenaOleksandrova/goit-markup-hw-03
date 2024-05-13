@@ -37,6 +37,8 @@ a {text-decoration: none;}
         height: 72px;
         align-items: center;
 }
+.header-container { display: flex;
+    align-items: center;}
 .novigation {
     display: flex;
     align-items: center;
@@ -45,6 +47,7 @@ a {text-decoration: none;}
 .nav-list {
     display: flex;
     gap: 40px;
+    
 }
 .logo {
     font-weight: 700;
