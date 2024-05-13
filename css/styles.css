@@ -87,7 +87,7 @@ a {text-decoration: none;}
     line-height: 1.5;
     font-weight: 500;
     letter-spacing: 0.02em;
-    padding: 24px; 0;
+    padding: 24px 0;
     display:block;
 }
 .link:hover { color: #404bbf;}
@@ -318,8 +318,4 @@ display: flex;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.paragraf-main-info {
-    height: 72px;
-    width: 264px;
-overflow: hidden;
-}
+
