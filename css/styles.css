@@ -195,7 +195,8 @@ letter-spacing: 0.04em
     box-sizing: border-box;
     border-radius: 0 0 4px 4px;
     gap: 24px;
-    width: calc((100% - 72px) / 4) height: 380px;
+    width calc((100% - 3 * 24px) / 4);
+    
    
 }
 /* h3 */
@@ -247,6 +248,7 @@ ul {
  .our-team {
     padding: 120px 0;
     background: #f4f4fd;
+
  }
 
 .our-team-card-list {
@@ -312,8 +314,8 @@ ul {
     row-gap: 48px;
 }
 .our-portfolio-list {
-    width: calc((100% - 48px) / 3
     box-sizing: border-box;
+    width: calc((100% - 48px) / 3;
     }
 
 .card-name-info-our-team {
@@ -324,15 +326,16 @@ ul {
     width: 360px;
     height: 120px;
     border-top: none;
+    border: 1px solid #e7e9fc;
 }
 /* footrer */
 
 .footer { background: #2e2f42;
     padding: 100px 0;
     height: 312px;
-    width: 1440px;}
-    
-
+    width: 1440px;
+}
+        
 .footer-text {
     color: #f4f4fd;
     line-height: 1.5;
@@ -360,10 +363,7 @@ ul {
     display: inline-block;
     margin-bottom: 16px
 }
-.section {
-    padding-top: 120;
-    padding-bottom: 120;
-}       
+     
 .container {
     max-width: 1158px;
     padding: 0 15px;
